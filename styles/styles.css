@@ -95,7 +95,8 @@ ul li {
     .positiveContainer{
         background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0)), url('../images/watch.png');
         background-repeat: no-repeat;
-        margin:131px 134px;
+        margin:0 134px;
+        margin-top: 130px;
         height: 300px;
         background-size: cover;
         border-radius: 8px;
@@ -107,6 +108,28 @@ ul li {
         margin-left: 60px;
         margin-right: 621px;
         padding: 50px 0;
+    }
+        
+        .achivementsub{
+    
+            margin: 130px 230px;
+            display: flex;
+            gap: 80px;
+            align-items: center;
+        }
+        .achivementsTitle{
+            font-size: 40px;
+            font-weight: 700;
+        }
+        .achivementsDes{
+            font-size: 20px;
+            font-weight: 400;
+            color: #737272;
+            margin-top: 30px;
+        }
+        .achivementsimg{
+            height: 600px;
+            width: 50%;
     }
     .btncall{
         margin-left: 60px;
@@ -148,10 +171,11 @@ ul li {
     .subTitle{
         margin-top: 30px;
     }
-    .input{
+    .inputemail{
         margin-top: 30px;
         border: none;
         height: 30px;
+        width: 260px;
         border-radius: 8px;
         padding: 10px;
     
